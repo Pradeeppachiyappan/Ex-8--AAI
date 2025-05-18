@@ -23,10 +23,6 @@ Speech recognition is a technology that converts spoken language into text, enab
    - A generic exception block captures any other unexpected errors.  
 
 
-<table>
-<tr>
-<td width=40%>
-  
 ### Program:
 ```Python
 import speech_recognition as sr
@@ -52,19 +48,10 @@ while True:
         exit(1)
 ```
 
-</td> 
-<td>
-
 ### Output:
 
 
 ![Screenshot 2024-11-15 130146](https://github.com/user-attachments/assets/720625d1-b94a-481d-ae86-90c56717d993)
-
-
-
-</td>
-</tr> 
-</table>
 
 ### Result:
 Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.<br>
